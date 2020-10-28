@@ -1,11 +1,11 @@
 package com.example.temperature_detect;
 
 public class Detail {
-    private String id;
-    private String roomtemp;
-    private String roomhumidity;
-    private String bodypulse;
-    private String bodytemp;
+    public String id;
+    public String roomtemp;
+    public String roomhumidity;
+    public String bodypulse;
+    public String bodytemp;
 
 
     public Detail(String roomtemp, String roomhumidity, String bodypulse, String bodytemp) {
