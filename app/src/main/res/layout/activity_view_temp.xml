@@ -6,30 +6,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/tempo">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="230dp"
-        android:layout_height="50dp"
-        android:text="Hiiiii"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047" />
 
     <TextView
         android:id="@+id/txt_huminity_temp"
-        android:layout_width="227dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="56dp"
-        android:textColor="#EEEEEE"
+        android:layout_width="210dp"
+        android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
 
     <TextView
         android:id="@+id/txt_room_temp"
@@ -63,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_body_pulse"
-        app:layout_constraintVertical_bias="0.288" />
+        app:layout_constraintVertical_bias="0.255" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
