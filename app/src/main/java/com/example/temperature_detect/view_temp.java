@@ -56,6 +56,13 @@ public class view_temp extends AppCompatActivity {
                     bodypulse.setText(bpulse);
                     bodytemp.setText(btemp);
 
+
+                    if( dataSnapshot.child("bodyTemp").getValue(Double.class) > 40.0){
+                        Toast.makeText(view_temp.this, "Warning!!! BodyTemperature is High", Toast.LENGTH_SHORT).show();
+                    }else{
+                        Toast.makeText(view_temp.this, "BodyTemperature is Good", Toast.LENGTH_SHORT).show();
+                    }
+
                 }
             }
 
