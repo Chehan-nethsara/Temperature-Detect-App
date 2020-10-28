@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="12dp"
-                    android:text="Analyse"
+                    android:text="Records"
                     android:textColor="#1F225B"
                     android:textSize="20sp"
                     android:textStyle="bold" />
