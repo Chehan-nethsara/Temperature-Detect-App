@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Temperaturedetect">
 
+        <activity android:name=".Login"></activity>
+       
         <activity
             android:name=".view_temp"
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
